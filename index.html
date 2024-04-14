@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes Computadores</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600&family=Oswald:wght@600&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/tailwind.css">
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <div id="intro" class="parallax-window" data-parallax="scroll" data-image-src="img/intro.jpg">
+        <nav id="tm-nav" class="fixed w-full">
+            <div class="tm-container mx-auto px-2 md:py-6 text-right">
+                <button class="md:hidden py-2 px-2" id="menu-toggle"><i
+                        class="fas fa-2x fa-bars tm-text-gold"></i></button>
+                <ul class="mb-3 md:mb-0 text-2xl font-normal flex justify-end flex-col md:flex-row">
+                    <li class="inline-block mb-4 mx-4"><a href="#intro" class="tm-text-gold py-1 md:py-3 px-4">Intro</a>
+                    </li>
+                    <li class="inline-block mb-4 mx-4"><a href="#funcao"
+                            class="tm-text-gold py-1 md:py-3 px-4">Sobre</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#dimensionamento"
+                            class="tm-text-gold py-1 md:py-3 px-4">Dimensionamento</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#eficiencia"
+                            class="tm-text-gold py-1 md:py-3 px-4">Eficiência Energética</a></li>
+                    <li class="inline-block mb-4 mx-4"><a href="#cabos" class="tm-text-gold py-1 md:py-3 px-4">Cabos</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <div class="container mx-auto px-2 tm-intro-width">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Fontes de Computadores</h1>
+                    <p class="tm-text-gold tm-text-2xl">Curso de TI - Liberato<br>Organização de Computadores</p>
+                </div>
+                <div class="bg-black bg-opacity-70 p-10 mb-5">
+                    <p class="text-white leading-8 text-sm font-light">
+                        Aqui você aprenderá o que é uma fonte de computador, qual a função dela e como escolher na hora
+                        na compra.
+                    </p>
+                </div>
+                <div class="text-center">
+                    <div class="inline-block">
+                        <a href="#funcao"
+                            class="flex justify-center items-center bg-black bg-opacity-70 py-6 px-8 rounded-lg font-semibold tm-text-2xl tm-text-gold hover:text-gray-200 transition">
+                            <i class="fas fa-desktop mr-3"></i>
+                            <span>Vamos começar...</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="funcao" class="parallax-window" data-parallax="scroll" data-image-src="img/funcao-fonte.jpg">
+        <div class="container mx-auto tm-container py-24 sm:py-48">
+            <div class="text-center mb-16">
+                <h2 class="bg-white tm-text-brown py-6 px-12 text-4xl font-medium inline-block rounded-md">O que são
+                    fontes e qual sua função</h2>
+            </div>
+            <div class="flex flex-col lg:flex-row justify-around items-center">
+                <div class="flex-1 m-5 rounded-xl px-4 py-6 sm:px-8 sm:py-10 tm-bg-brown tm-item-container2">
+                    <div class="flex items-center mb-6 tm-menu-item">
+                        <img src="img/conversao-energia.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Para o computador funcionar, as
+                                fontes de alimentação convertem a corrente alternada das tomadas(127v/220v) em corrente
+                                contínua<br>(AC -> DC)</h3>
+
+                        </div>
+                    </div>
+                    <br>
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Principais Voltagens<br><br>3.3v
+                            </h3>
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Para alimentar memória RAM e
+                                alguns circuitos integrados.</div><br>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">5v</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Dispositivos como HD, SSD, portas USB
+                                e outros periféricos.</div><br>
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">12v</h3>
+                            <div class="text-white text-md sm:text-lg font-light">Componentes que requerem uma
+                                quantidade maior de energia, como a placa-mãe, a placa de vídeo e o processador</div>
+                            <br>
+                        </div>
+                    </div>
+                    <br>
+
+                    <div class="flex items-start mb-6 tm-menu-item">
+                        <img src="img/carro-sem-combustivel.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Para entender a função da fonte,
+                                pense que o computador é como um carro, não adianta ser bonito, ter ar-condicionado, ou
+                                ter o motor mais potente do mundo, se você abastecer combustível ruim, ou se acabar o
+                                combustível no meio do caminho, o carro não vai funcionar.</h3>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="flex items-center mb-6 tm-menu-item">
+                        <img src="img/baita-computador.jpg" alt="Image" class="rounded-md">
+                        <div class="ml-3 sm:ml-6">
+                            <div class="text-white text-md sm:text-lg font-light mb-1">Imagina você montar uma baita
+                                computador, com muitos coolers, bastante memória, processador e placa de vídeo de última
+                                geração, e no final acabar queimando eles. </div>
+
+                        </div>
+                    </div>
+                    <div class="ml-3 sm:ml-6">
+                        <h3 class="text-lg sm:text-xl mb-2 sm:mb-3 tm-text-yellow">Por isso é essencial ter uma fonte
+                            bem dimensionada e de boa qualidade, para atender o consumo de energia exigido pelos
+                            componentes, e proteger os componentes contra Curto-Circuito, Sobrecarga ou qualquer pico de
+                            tensão repentino na rede elétrica.</h3>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <div id="dimensionamento" class="parallax-window relative" data-parallax="scroll"
+        data-image-src="img/dimensionamento.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+
+                <div class="flex-1 rounded-xl p-12 pb-14 m-5 bg-black bg-opacity-70 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-yellow">Dimensionamento</h2>
+
+                    <div class="text-white text-md sm:text-lg font-light mb-1">
+                        Para dimensionar a bem fonte, você pode ver no site do fabricante dos componentes(processador,
+                        placa de vídeo, etc) quanto de energia cada um deles utiliza, e somar o consumo de todos eles,
+                        assim saberemos determinar a potência mínima para a fonte. Mas devemos adicionar uma margem de
+                        segurança para acomodar picos de energia ou upgrades futuros.
+
+
+                    </div>
+
+
+
+                </div>
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Exemplo</h2>
+                    <p class="mb-6 text-lg leading-8">
+
+                        Se o consumo total estimado for de 400 watts e você planeja fazer upgrades no futuro, é
+                        aconselhável escolher uma fonte um pouco maior, com 500 ou 550 watts.
+
+                    </p>
+
+                    <div class="text-center">
+                        <a href="https://www.coolermaster.com/br/pt-br/power-supply-calculator/" target="_blank"
+                            class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                            <i class="fa fa-calculator"></i>
+                            Calculadora Coolermaster
+                        </a>
+                        <br><br>
+                        <a href="https://br.msi.com/power-supply-calculator" target="_blank"
+                            class="inline-block tm-bg-green transition text-white text-xl pt-3 pb-4 px-8 rounded-md">
+                            <i class="fa fa-calculator"></i>
+                            Calculadora MSI
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="eficiencia" class="parallax-window" data-parallax="scroll" data-image-src="img/eficiencia-energetica.jpg">
+        <div class="container mx-auto px-2 tm-item-container2">
+            <div class="sm:pb-60 sm:pt-48 py-20">
+                <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                    <h1 class="text-white text-5xl tm-logo-font mb-5">Eficiência Energética</h1>
+
+                </div>
+
+                <div class="text-center">
+                    <div class="inline-block">
+                        <img src="img/selo-80-plus.png" alt="Image" class="rounded-md">
+
+                        <div class="bg-black bg-opacity-70 p-10 mb-5">
+                            <p class="text-white leading-8 text-sm font-light">
+
+                                Para saber se a fonte escolhida terá uma boa eficiência energética, podemos utilizar
+                                como referência o selo de certificação 80 Plus, ele garante que a fonte tem o mínimo de
+                                perda energética possível.
+
+                            </p>
+                        </div>
+                        <img src="img/carga-vs-eficiencia.png" alt="Image" class="rounded-md">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="cabos" class="parallax-window relative" data-parallax="scroll" data-image-src="img/cabos.jpg">
+        <div class="container mx-auto tm-container pt-24 pb-48 sm:py-48">
+            <div class="flex flex-col lg:flex-row justify-around items-center lg:items-stretch">
+                <div class="flex-1 rounded-xl px-10 py-12 m-5 bg-white bg-opacity-80 tm-item-container">
+                    <h2 class="text-3xl mb-6 tm-text-green">Cabos</h2>
+                    <p class="mb-6 text-lg leading-8">
+                        As fontes de alimentação possuem uma variedade de conectores para fornecer quantidades
+                        diferentes de energia para cada componente do computador.
+
+                    </p>
+                    <img src="img/pinos-fonte.png" alt="Image" class="rounded-md">
+
+                    <p class="mb-6 text-lg leading-8">
+                        conectores ATX, que fornece energia à placa-mãe e Processador<br>
+                        conectores PCI-E para placas de vídeo<br>
+                        conectores SATA para unidades de armazenamento e periféricos<br>
+
+
+                    </p>
+
+
+                </div>
+
+
+
+            </div>
+
+            <div class="container mx-auto px-2 tm-item-container2">
+                <div class="sm:pb-60 sm:pt-48 py-20">
+                    <div class="bg-black bg-opacity-70 p-12 mb-5 text-center">
+                        <h1 class="text-white text-5xl tm-logo-font mb-5">Fontes Modulares</h1>
+
+                    </div>
+
+                    <div class="text-center">
+                        <div class="inline-block">
+                            <img src="img/fonte-semimodular-e-modular.png" alt="Image" class="rounded-md">
+
+                            <div class="bg-black bg-opacity-70 p-10 mb-5">
+                                <p class="text-white leading-8 text-sm font-light">
+
+                                    Para atender computadores diversos, geralmente as fontes vem com quantidades bem
+                                    generosas de cabos, porém a maioria das pessoas não utiliza todos eles e ficam
+                                    sobrando vários. <br><br>
+                                    Por isso temos a opção de escolher fontes com cabos modulares, onde você conecta
+                                    apenas os cabos que vai utilizar, deixando assim um visual mais limpo e com melhor
+                                    circulação de ar, facilitando assim a refrigeração interna.
+
+                                </p>
+                            </div>
+                            <img src="img/fonte-modular.jpg" alt="Image" class="rounded-md">
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <footer class="absolute bottom-0 left-0 w-full">
+                <div
+                    class="text-white container mx-auto tm-container p-8 text-lg flex flex-col md:flex-row justify-between">
+                    <span>Gabriel da Silva Paim.</span>
+                    <span class="mt-5 md:mt-0">Fontes Pesquisa: MSI, CoolerMaster, Adrenaline, Google, Free CSS,
+                        Microsoft Copilot</span>
+                </div>
+            </footer>
+        </div>
+    </div>
+
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/parallax.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>
+    <script>
+
+        function checkAndShowHideMenu() {
+            if (window.innerWidth < 768) {
+                $('#tm-nav ul').addClass('hidden');
+            } else {
+                $('#tm-nav ul').removeClass('hidden');
+            }
+        }
+
+        $(function () {
+            var tmNav = $('#tm-nav');
+            tmNav.singlePageNav();
+
+            checkAndShowHideMenu();
+            window.addEventListener('resize', checkAndShowHideMenu);
+
+            $('#funcao-toggle').click(function () {
+                $('#tm-nav ul').toggleClass('hidden');
+            });
+
+            $('#tm-nav ul li').click(function () {
+                if (window.innerWidth < 768) {
+                    $('#tm-nav ul').addClass('hidden');
+                }
+            });
+
+            $(document).scroll(function () {
+                var distanceFromTop = $(document).scrollTop();
+
+                if (distanceFromTop > 100) {
+                    tmNav.addClass('scroll');
+                } else {
+                    tmNav.removeClass('scroll');
+                }
+            });
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+
+                    document.querySelector(this.getAttribute('href')).scrollIntoView({
+                        behavior: 'smooth'
+                    });
+                });
+            });
+        });
+    </script>
+</body>
+
+</html>
